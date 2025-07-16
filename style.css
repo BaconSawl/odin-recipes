@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 100px;
 }
 
 .odinRecipes {
@@ -10,4 +11,12 @@ body {
 
 .recipes {
     padding: 50px;
+}
+
+.recipeList {
+    padding-left: 50px;
+}
+
+li::marker {
+    color: darkgoldenrod;
 }
